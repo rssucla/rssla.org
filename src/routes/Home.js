@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <RSSPage className="home">
                 <Banner 
-                    text="this is rss" 
+                    text="we are rss" 
                     subtext="regents scholar society at ucla" 
                     // video="true"
                     bgr="/images/banners/royce-sideview.jpg"

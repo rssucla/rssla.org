@@ -61,7 +61,7 @@ class Board extends Component {
                     title="Secretary"
                     name="Scarlett Greenwood"
                     major="Physics, 2028"
-                    img="ScarlettGreenwood.JPG"
+                    img="ScarlettGreenwood.jpg"
                     size="160% auto"
                     halign="47%"
                     valign = "58%"
@@ -110,11 +110,12 @@ class Board extends Component {
                     size="100% auto"
                     halign="2px"
                     valign="20%"
+                    //rotation="180"
                 />
                 <BoardProfile width={this.state.width}
                     title="Treasurer"
                     name="Kavya Kumar"
-                    major="Economics and Psychology, 2025"
+                    major="Neuroscience, 2025"
                     img="KavyaKumar.png"
                     size="100% auto"
                     halign="50%"
@@ -140,7 +141,7 @@ class Board extends Component {
                 />
                 <BoardProfile width={this.state.width}
                     title="Mentorship Director"
-                    name="Tea Wagstaff"
+                    name="Téa Wagstaff"
                     major="Math/Econ, 2027"
                     img="TeaWagstaff.jpg"
                     size="160% auto"
@@ -183,11 +184,13 @@ class BoardProfile extends Component {
         const halign = this.props.halign == null ? "0%" : this.props.halign; //picture movement laterally
         const valign = this.props.valign == null ? "0%" : this.props.valign; //picture movement vertically
         const size = this.props.size == null ? "cover" : this.props.size; //zoom
+        const rotation = this.props.rotation == null ? "0deg" : `${this.props.rotation}deg`; //rotation
         const imgStyle = {
             backgroundImage: `url(/images/board25-26/${this.props.img})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: `${halign} ${valign}`,
-            backgroundSize: size
+            backgroundSize: size,
+            transform: `rotate(${rotation})`
         }
         if (this.props.width > 840) {
             return (

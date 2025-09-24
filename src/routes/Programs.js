@@ -49,9 +49,10 @@ class Programs extends Component {
                     align="left"
                     height={this.state.longestPanelHeight}
                 >
-                    Through partnerships with Heal the Bay and Meals on Wheels, the 
-                    Regents Scholar Society hosts periodic service events throughout the 
-                    year. Stay tuned on our Facebook group to get involved!
+                    From partnerships with Heal the Bay to various service projects 
+                    chosen by our community service committee, RSS hosts periodic 
+                    volunteer opportunities throughout the year! 
+                    Stay tuned via our Newsletter and Discord to get involved!
                 </ImageTextPanel>
                 <ImageTextPanel 
                     heading="mentorship"
