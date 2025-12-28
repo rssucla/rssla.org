@@ -51,7 +51,7 @@ class Board extends Component {
                 <BoardProfile width={this.state.width}
                     title="Internal Vice President"
                     name="Luke Jones"
-                    major="Mathematics, 2027"
+                    major="Mathematics and Stats&nbsp;&amp;&nbsp;Data&nbsp;Science, 2027"
                     img="LukeJones.jpg"
                     size="115% auto"
                     halign="15%"
@@ -60,7 +60,7 @@ class Board extends Component {
                 <BoardProfile width={this.state.width}
                     title="Secretary"
                     name="Scarlett Greenwood"
-                    major="Physics, 2028"
+                    major="Psychology, 2028"
                     img="ScarlettGreenwood.jpg"
                     size="160% auto"
                     halign="47%"
@@ -133,7 +133,7 @@ class Board extends Component {
                 <BoardProfile width={this.state.width}
                     title="Transfer Affairs Director"
                     name="Carlee Lincoln"
-                    major="Political Science and Education, 2026"
+                    major="Political Science and Philosophy, 2026"
                     img="CarleeLincoln.jpg"
                     size="120% auto"
                     halign="30%"
@@ -167,6 +167,9 @@ class Board extends Component {
                     darkness="0"
                     valign="55%"
                 />
+                <div className="board-description">
+                    The Regents Scholar Society Executive Board is responsible for designing, planning, and executing all of the internal and external programs, projects, resources, activities, service events, leadership opportunities, mentorship, academic and professional events for our members to thrive at UCLA. A highly collaborative and supportive group of 14 outstanding RSSers, E-board works hard throughout the year to keep RSSers engaged and involved in the society through providing creative and innovative events and opportunities for all.
+                </div>
                 <div className="board-wrapper">
                     {this.state.width > 840 ? contents :
                         <div className="board-flex-wrapper">
