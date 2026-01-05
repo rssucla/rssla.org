@@ -37,17 +37,20 @@ class Header extends Component {
                         <img src="/images/rss_logo.png" alt="rss logo" className="header-logo"/>
                     </Link>
                 </div>
+
                 <NavItems desktop={desktop}>
+                    <NavBox label="programs" link="/programs" external={false} />
+                    
                     <ExpandableNavBox 
-                        label="about" 
-                        link={null} 
+                        label="leadership"
+                        link={null}
                         desktop={desktop}
-                        options={[{label: "programs", to: "/programs"},
-                                {label: "committees", to: "/committees"},
-                                {label: "board", to: "/board"},
-                                // {label: 'service', to: "/service"}
-                                ]}
+                        options={[
+                            { label: "committees", to: "/committees" },
+                            { label: "executive board", to: "/board" }
+                        ]}
                     />
+
                     {/*NAVIGATION BAR */}
                     <NavBox label="gallery" link="/gallery" external={false} />
                     {/* <NavBox label="events" link="/events" external={false}/> */}
