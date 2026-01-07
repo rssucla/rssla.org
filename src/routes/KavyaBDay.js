@@ -35,7 +35,7 @@ function KavyaBDay() {
                     </div>
                 </div>
 
-                {/* Kavya's card */}
+                {/* Katie's card */}
                 <div className="bday-card" style={{marginTop: '20px'}}>
                     <img 
                         src="/images/Kavya/Roof.jpg"
@@ -43,12 +43,53 @@ function KavyaBDay() {
                         className="bday-image2"
                     />
                     <div className="bday-message">
-                        <h2>Happy Birthday Kavya!</h2>
-                        <p>Poop!</p>
-                        <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- [TEMP]</p>
+                        <h2>Dear Kavya,</h2>
+                        <p>I hope you have a wonderful birthday! Your energy is always so contagious and it’s so fun to be around you. We love you so much!! 💗</p>
+                        <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- Katie</p>
                     </div>
                 </div>
 
+                {/* Tomas' card */}
+                <div className="bday-card" style={{marginTop: '20px'}}>
+                    <img 
+                        src="/images/Kavya/Tomas.jpg"
+                        alt="Tomas Photo"
+                        className="bday-image2"
+                    />
+                    <div className="bday-message">
+                        <h2>HAPPY HAPPY BIRTHDAY KAVYA!</h2>
+                        <p>You always bring the best vibes and are undoubtedly one of the coolest people I know. I wish you a happy birthday, and I’m looking forward to working with you on the FUNding committee next year!</p>
+                        <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- Tomas</p>
+                    </div>
+                </div>
+                
+                {/* Sophia's card */}
+                <div className="bday-card" style={{marginTop: '20px'}}>
+                    <img 
+                        src="/images/Kavya/room.jpeg"
+                        alt="Kavya's room"
+                        className="bday-image2"
+                    />
+                    <div className="bday-message">
+                        <h2>Happy Birthday Kavya!!</h2>
+                        <p>You’re such a joy to be around. I hope your day is as fabulous as you are. </p>
+                        <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- Sophia</p>
+                    </div>
+                </div>
+
+                {/* Nyla's card */}
+                <div className="bday-card" style={{marginTop: '20px'}}>
+                    <img 
+                        src="/images/Kavya/room.jpeg"
+                        alt="Kavya's room"
+                        className="bday-image2"
+                    />
+                    <div className="bday-message">
+                        <h2>Happy Birthday Kavya!</h2>
+                        <p>May your day be even more wonderful than RSS’s finances! 😎</p>
+                        <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- Nyla</p>
+                    </div>
+                </div>            
             </div>
         </div>
     );

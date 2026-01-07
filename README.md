@@ -27,3 +27,10 @@ Run the following command to run the site:
 ```
 npm start
 ```
+
+How to upload changes to the actual website
+Run: 
+npm run build
+
+replace the static folder and index.html in the cPanel file manager
+

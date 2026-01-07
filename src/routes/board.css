@@ -1,6 +1,20 @@
+.board{
+    background-color: black;
+}
+
+.board .board-description{
+    width: 75%;
+    margin: 0 auto; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 1.6;
+    padding: 35px 0 40px 0;
+}
+
 .board .board-wrapper {
     width: 100%;
-    background-color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

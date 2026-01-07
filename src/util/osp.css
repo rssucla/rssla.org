@@ -66,11 +66,11 @@
     }
 
     .osp .osp1_wrapper .osp_content_image_wrapper {
-        background-image: url(/images/prospectives/day_itinerary.png);
+        background-image: url(../../public/images/prospectives/day_itinerary.png);
     }
 
     .osp .osp2_wrapper .osp_content_image_wrapper {
-        background-image: url(/images/prospectives/night_itinerary.png);
+        background-image: url(../../public/images/prospectives/night_itinerary.png);
     }
 }
 

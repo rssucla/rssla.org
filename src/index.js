@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   BrowserRouter,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 
@@ -23,31 +23,32 @@ import KavyaBDay from './routes/KavyaBDay';
 
 import ResetScroll from './util/ResetScroll'
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('main-wrapper'));
+
+root.render(
   <React.StrictMode>
-    <Routes />
-  </React.StrictMode>,
-  document.getElementById('main-wrapper')
+    <App />
+  </React.StrictMode>
 );
 
-function Routes(props) {
+function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <ResetScroll>
-        <Switch>
-          <Route exact path="/"><Home key={Math.random()}/></Route>
-          <Route exaxt path="/programs"><Programs /></Route>
-          <Route exaxt path="/committees"><Committees /></Route>
-          <Route exaxt path="/board"><Board /></Route>
-          <Route exaxt path="/gallery"><Gallery /></Route>
-          <Route exaxt path="/events"><Event /></Route>
-          <Route exaxt path="/kavya-bday"><KavyaBDay /></Route>
-          <Route exaxt path="/prospectives"><Prospectives /></Route>
-          <Route exaxt path="/contact"><Contact /></Route>
-          <Route exaxt path="/shop"><Shop /></Route>
-          <Route exaxt path="/interUC"><InterUC /></Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home key={Math.random()} />} />
+          <Route path="/programs/*" element={<Programs />} />
+          <Route path="/committees/*" element={<Committees />} />
+          <Route path="/board/*" element={<Board />} />
+          <Route path="/gallery/*" element={<Gallery />} />
+          <Route path="/events/*" element={<Event />} />
+          <Route path="/kavya-bday/*" element={<KavyaBDay />} />
+          <Route path="/prospectives/*" element={<Prospectives />} />
+          <Route path="/contact/*" element={<Contact />} />
+          <Route path="/shop/*" element={<Shop />} />
+          <Route path="/interUC/*" element={<InterUC />} />
+        </Routes>
       </ResetScroll>
     </BrowserRouter>
-  )
+  );
 }
