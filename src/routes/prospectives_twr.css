@@ -1,0 +1,190 @@
+.prospectives_twr .text-panel {
+    padding-top: 0px;
+}
+
+.prospectives_twr #we-are-rss-panel {
+    padding-top: 60px;
+}
+
+.prospectives_twr .twr_description {
+    float: left;
+    width: 50%;
+    padding-top: 3px;
+    font-size: calc(8px + 0.7vw);
+    font-style: italic;
+}
+
+.prospectives_twr .we_are_rss_wrapper {
+    display: flex;
+}
+.prospectives_twr .benefits_list {
+    float: left;
+    width: calc(100% - 200px - 13vw);
+    padding-right: 4%;
+    padding-top: 15px;
+}
+
+.prospectives_twr .letter_wrapper {
+    float: right;
+    width: calc(200px + 13vw);
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding-top: 15px;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.prospectives_twr .tad_letter_header {
+    font-size: calc(22px + 1.1vw);
+    font-family: "Kollektif";
+}
+
+.prospectives_twr .tad_letter_body {
+    padding-bottom: calc(10px + 0.5vw);
+}
+
+.prospectives_twr .tad_letter_signature {
+    font-size: calc(50px + 1.1vw);
+    font-family: "Moontime";
+}
+
+.prospectives_twr .tad_letter_signature {
+    font-size: calc(35px + 1.5vw);
+    font-family: "Moontime";
+}
+
+.prospectives_twr .tad_letter_title {
+    font-style: italic;
+}
+
+@media (min-width: 900px) {
+    .prospectives_twr #we-are-rss-panel .text-panel-content {
+        padding-top: 0px;
+    }
+    
+    .prospectives_twr #we-are-rss-panel {
+        padding-bottom: calc(30px + 0.5vw);
+    }
+
+    .prospectives_twr .tad_letter_body {
+        padding-top: calc(10px + 0.5vw);
+    }
+    .prospectives_twr .tad_letter_title {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 840px) {
+    .prospectives_twr #we-are-rss-panel {
+        padding-bottom: 0px;
+    }   
+}
+
+.prospectives_twr .welcome_header {
+    padding: 40px;
+    padding-bottom: 0px;
+    background-color: white;
+    font-family: "Kollektif";
+    color: black;
+    font-size: calc(20px + 1.1vw);
+    line-height: calc(24px + 1.2vw);
+    border-bottom: 4px solid white;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.prospectives_twr .welcome_wrapper {
+    margin-top: -4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.prospectives_twr .welcome_to_osp {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: calc(10px + 0.5vw);
+    color: black;
+}
+
+.prospectives_twr .itinerary_wrapper {
+    float: right;
+    width: calc(50% - 8px);
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.prospectives_twr #osp_panel .text-panel-content {
+    padding-top: 0;
+}
+
+.prospectives_twr .twr_contact_wrapper {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.prospectives_twr .twr_contact_name {
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: calc(20px + 1.1vw);
+    padding-right: 20px;
+    border-right: 3px solid white;
+    display: inline-block;
+}
+
+.prospectives_twr .twr_contact_email {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: calc(18px + 0.9vw);
+    padding-left: 20px;
+}
+
+.prospectives_twr .twr_contact_email_link {
+    text-decoration: none;
+    color: white;
+}
+
+.prospectives_twr .twr_contact_email_link:hover {
+    text-decoration: underline;
+}
+
+.prospectives_twr .twr_contact_img {
+    display: block;
+    margin: auto;
+    height: calc(200px + 10vw);
+    margin-bottom: -35px;
+}
+
+@media (max-width: 430px) {
+    .prospectives_twr .twr_contact_img {
+        width: 100%;
+        height: auto;
+    }
+    .prospectives_twr .twr_contact_name {
+        color: white;
+        height: 40px;
+        line-height: 40px;
+        font-size: calc(20px + 1.1vw);
+        padding-right: 0;
+        border-right: none;
+        display: block;
+        margin-top: -15px;
+    }
+    
+    .prospectives_twr .twr_contact_email {
+        padding-left: 0;
+        display: block;
+    }
+}

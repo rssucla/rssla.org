@@ -16,7 +16,7 @@ class interUC extends Component {
                     darkness="0.2"
                     valign="50%"
                 />
-                <TextPanel heading="itinerary">
+                <TextPanel heading="[ARCHIVE]: itinerary">
                     <div className="itinerary_intro">
                         Saturday, May 3rd – Sunday, May 4th, 2025
                         <br /><br />

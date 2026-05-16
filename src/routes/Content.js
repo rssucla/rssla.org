@@ -1,6 +1,8 @@
 const content = {
-    CURRENT_EVP: "Rebecca Lee",
+    CURRENT_EVP: "Shannon Shams",
     EXTERNAL_VICE_PRESIDENT: "External Vice President",
+     CURRENT_TAD: "Carlee Lincoln",
+    TRANSFER_AFFAIRS_DIRECTOR: "Transfer Affairs Director",
     WELCOME_LETTER: [`
                  Dear prospective RSSer,
                  `,
@@ -12,6 +14,19 @@ const content = {
                  `,
                  `
                  I hope you guys will have an amazing time at OSP, and I can’t wait to meet all of you here!
+                 `
+                ],
+    WELCOME_LETTER2: [`
+                 Dear prospective RSS transfers,
+                 `,
+                 `
+                 Congratulations on your acceptance to UCLA and on receiving the prestigious Regents Scholarship! Your application stood out from the thousands of others, and to honor your acceptance, the transfer committee and I are excited to host the very first Transfer Welcome Reception (TWR). 
+                 `,
+                 `     
+                 TWR will be a one-night overnight stay for incoming transfers to experience a snippet of UCLA life and meet current and new RSS. We will be hosting a 3-day Zoom panel to get more information about RSS or if you can’t join in person. We will be hosting the overnight from May 15th to 16th, and the UCLA Transfer Day is May 16th. Either through virtual, the overnight stay, or joining in on Bruin Day, please come out to get a feel for UCLA life. 
+                 `,
+                 `
+                 Hope to see y'all soon!
                  `
                 ],
     OSP: "Overnight Stay Program",

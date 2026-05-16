@@ -1,0 +1,234 @@
+.twr {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    width: calc(100% - 120px);
+    background-color: black;
+}
+
+.twr .osp_mountains {
+    width: 100%;
+}
+
+.twr .osp_mountains_img {
+    display: block;
+    margin: auto;
+    max-height: 30vw;
+}
+
+@media (max-width: 840px) {
+    .twr .osp_mountains {
+        padding-bottom: 15px;
+    }
+}
+
+.twr .osp_heading {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.twr .osp_heading_text {
+    color: white;
+    font-family: "Kollektif";
+    padding-right: 10px;
+    font-size: calc(35px + 1.8vw);
+}
+
+.twr .osp_heading_line {
+    flex: 1;
+    background-color: white;
+    height: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.twr .osp_content_wrapper {
+    color: white;
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+@media (min-width: 840px) {
+    .twr .osp_content_image_wrapper {
+        display: inline-block;
+        width: 40%;
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .twr .osp1_wrapper .osp_content_image_wrapper {
+        background-image: url(/images/prospectives/day_itinerary.png);
+    }
+
+    .twr .osp2_wrapper .osp_content_image_wrapper {
+        background-image: url(/images/prospectives/night_itinerary.png);
+    }
+}
+
+.twr .osp_content {
+    flex: 1.1;
+}
+
+.twr .osp_content_day_wrapper {
+    width: calc(100% - 30px);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.twr .osp_content_label {
+    font-family: "Kollektif";
+    font-style: italic;
+    font-size: calc(25px + 0.8vw);
+}
+
+.twr .osp_content_itinerary_wrapper {
+    padding-left: 30px;
+}
+
+@media (max-width: 840px) {
+    .twr .osp_content_day_wrapper {
+        padding-left: 10px;
+    }
+
+    .twr .osp_content_itinerary_wrapper {
+        padding-left: 10px;
+    }
+}
+
+.twr #first_osp_label {
+    padding-top: 0;
+}
+
+.twr .osp_event_wrapper {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.twr .osp_event_time {
+    flex: 1;
+    padding-right: 25px;
+    font-size: calc(12px + 0.6vw);
+    font-family: "Kollektif";
+    font-style: italic;
+}
+
+.twr .osp_event_desc {
+    flex: 6;
+}
+
+.twr .osp_event_location {
+    flex: 6;
+    font-size: calc(8px + 0.4vw);
+    font-style: italic
+}
+
+.twr .osp_event_desc_heading {
+    font-size: calc(12px + 0.6vw);
+    font-family: "Kollektif";
+}
+
+.twr .osp_event_desc_desc {
+    font-size: calc(8px + 0.4vw);
+    color: #c5c5c5;
+    /* font-style: italic; */
+}
+
+.twr .osp_coord_wrapper {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.twr .osp_coord_header {
+    font-family: "Kollektif";
+    font-size: calc(20px + 0.8vw);
+}
+
+.twr .osp_coord_flexbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.twr .osp_profile {
+    padding: 2.5%;
+    padding-top: 30px;
+    width: 25%;
+    font-family: 'Roboto bold', sans-serif;
+}
+
+.twr .osp_profile_img {
+    width: 70%;
+    padding-top: 70%;
+    margin: auto;
+}
+
+@media (max-width: 1300px) and (min-width: 840px) {
+    .twr .osp_profile {
+        width: 40%;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 840px) {
+    .twr .osp_profile {
+        width: 95%;
+        max-width: 500px;
+        padding-bottom: 35px;
+    }
+
+    .twr .osp_profile_img {
+        width: min(300px, 70%);
+        padding-top: min(300px, 70%);
+    }
+}
+
+.twr .osp_profile_name {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    line-height: 40px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.twr .osp1_wrapper {
+    margin-bottom: 50px;
+}
+
+.twr .osp1_wrapper .osp_profile_name {
+    background-image: linear-gradient(to bottom right, #E58646, #E5A94F);
+}
+
+.twr .osp2_wrapper .osp_profile_name {
+    background-image: linear-gradient(to bottom right, #0C3C91, #7041CC);
+}
+
+.twr .osp_profile_year, .twr .osp_profile_major {
+    width: 100%;
+    text-align: center;
+    font-size: calc(10px + 0.4vw);
+    color: #c5c5c5;
+    font-style: italic;
+}
+
+.twr .osp_profile_desc {
+    color: #c5c5c5;
+    padding-left: 10px;
+    padding-top: 10px;
+}

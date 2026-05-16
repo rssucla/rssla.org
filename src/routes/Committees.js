@@ -34,69 +34,57 @@ class Committees extends Component {
                     align="left"
                     id="committees-text-panel"
                 >
-                    Committees are a way for members of the Regents Scholar Society to become more involved with
-                    the RSS community and take on a leadership role within the society. Our committees shape the
-                    direction of our society: committee members help organize events and activities, raise funds,
-                    work on design projects for the society, and much more!
-                    <p/>
-                    Each committee is led by
-                    one or more board members and will meet regularly and have socials to help members get to know 
-                    one another and engage with RSS.
+
+                    Committees are incredibly important to the structure and well-being of UCLA RSS, in charge of planning and promoting fun and engaging events, securing funding, designing merchandise, and more. 
+                    Our committees shape the direction of our society. Each committee is led by one or more board members and meets bi-weekly. RSS also hosts socials within each committee as well as an annual 
+                    all-committee social to help members meet each other and engage with RSS.
+
                 </ImageTextPanel>
 
                 <TextPanel 
-                    heading="join a committee!"
+                    heading="RSS Committees"
                     id="join-committee-panel"
                 >
-                    2023-2024 committee applications will open a few weeks after fall quarter starts. There are
-                    six committees you can join this year:
+
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
-                            name="A.C.E. Committee"
-                            leaders="Judy, Clarrisa, Shannon, and Jake"
+                            name="Special Events"
+                            leaders="President (Rebecca), External Vice President (Shannon), Internal Vice President (-)"
                         >
-                            The A.C.E. Committee manages activities, community service, and educational programs. 
-                            The committee helps plan fun and affordable social activities, arranges community 
-                            service opportunities, and fosters engagement and bonding between members of the society. 
+                            The Special Events Committee plans RSS’s large-scale events, such as winter retreat, S.P.I.E.L., Inter-UC conference, and more. SEC works routinely with the UCLA events offices, SOLE, funding, and ASUCLA to plan logistics and make RSS traditions possible.
                         </CommitteeEntry>
                         <CommitteeEntry
-                            name="Funding Committee"
-                            leaders="Chan and Kavya"
+                            name="Activities"
+                            leaders="Activities Directors (Stephanie & Adrian)"
                         >
-                            The Funding Committee is in charge of fundraising, including brainstorming innovative ideas
-                            and organizing the logistics for the fundraisers. The Funding Committee also serves as 
-                            liaisons between RSS and corporate sponsors.
+                            The Activities committee plans creative, fun, and affordable social activities for all RSS members. Our events foster engagement and bonding between Regents Scholars, and the committee frequently collaborates with other committees in joint events.
+
                         </CommitteeEntry>
                         <CommitteeEntry
-                            name="Special Events Committee"
-                            leaders="Cadence, Rebecca, and Luke"
+                            name="Community Service & Education"
+                            leaders="Community Service Director (Izzy), Educational Programs Director (-)"
                         >
-                            The Special Events Committee plans the Society's large-scale events, such as S.P.I.E.L. 
-                            and winter retreat. In addition, the committee advocates for the needs of all members, 
-                            from first to fourth years, transfers, and non-traditional students.
+                            The C&E committee upholds the scholarship and community service pillars of RSS by arranging 3-4 community service opportunities quarterly, and hosting events that promote RSSers' academic and professional development, such as faculty mixers and alumni dinners.
+
                         </CommitteeEntry>
                          <CommitteeEntry
-                            name="Tech Committee"
-                            leaders="Nyla"
+                            name="Design"
+                            leaders="Publicity Director (Katie)"
                         >
-                            The Tech Committee works on tech-related projects with a focus on improving the society.
-                            Committee members help maintain and add new features/pages to the RSS website,
-                            or collaborate on other projects based on interest.
+                            The Design Committee curates the visual presence of RSS through creating promotional graphics for events and producing new merchandise every year. By maintaining a welcoming social media space, Design also enhances connection and cohesion within the RSS community. 
                         </CommitteeEntry> 
                         <CommitteeEntry
-                            name="Design Committee"
-                            leaders="Katie"
+                            name="Funding"
+                            leaders="Funding Director (Tomas), Treasurer (-)"
                         >
-                            The Design Committee creates digital flyers and design RSS merch, as well as work on designs
-                            for RSS projects. The committee also helps manage our social media accounts and promote our
-                            activities and events to the community.
+                            The Funding Committee is in charge of obtaining grants from UCLA to fund RSS's many events and activities, as well as planning and organizing creative fundraisers. The Funding Committee also serves as liaisons between RSS and corporate sponsors.
                         </CommitteeEntry>
                         <CommitteeEntry
-                            name="Transfer Affairs Committee"
-                            leaders="Evette"
+                            name="Transfer Affairs"
+                            leaders="Transfer Affairs Director (Carlee)"
                         >
                             The Transfer Affairs Committee works to make the Regents Scholar Society a transfer-inclusive
-                            space by promoting academic, educational, and professional resources to ensure success.
+                            space by promoting academic, educational, and professional resources for transfer Regents Scholars and developing unique transfer-led community building initiatives.
                         </CommitteeEntry>
                     </div>
                 </TextPanel>
